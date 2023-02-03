@@ -8,7 +8,7 @@
     "email": "kyle.hwan.k@gmail.com"
   },
   "scripts": {
-    "postinstall": "cd ./node_modules/lorenzo-vue3-draggable && npm install && npm run build",
+
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",

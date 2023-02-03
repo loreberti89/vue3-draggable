@@ -1,5 +1,5 @@
 {
-  "name": "vue3-draggable",
+  "name": "lorenzo-vue3-draggable",
   "version": "2.0.8",
   "private": false,
   "description": "simple drag&drop component for vue 3.x",
@@ -8,12 +8,13 @@
     "email": "kyle.hwan.k@gmail.com"
   },
   "scripts": {
+    "postinstall": "cd ./node_modules/lorenzo-vue3-draggable && npm install && npm run build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library": "vue-cli-service build --target lib --name vue3-draggable ./src/index.js"
+    "build-library": "vue-cli-service build --target lib --name lorenzo-vue3-draggable ./src/index.js"
   },
-  "main": "dist/vue3-draggable.umd.min.js",
+  "main": "dist/lorenzo-vue3-draggable.umd.min.js",
   "files": [
     "dist/*.umd.min.*"
   ],
@@ -69,5 +70,5 @@
     "drag and drop"
   ],
   "license": "MIT",
-  "repository": "https://github.com/shkilo/vue3-draggable"
+  "repository": "https://github.com/loreberti89/vue3-draggable.git"
 }
